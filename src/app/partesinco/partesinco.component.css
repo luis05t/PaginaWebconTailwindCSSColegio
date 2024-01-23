@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c70000;
+	background-image: url('https://static.wixstatic.com/media/98d749_d1da9263057f4fe188fa6182db5c9ee1~mv2.png/v1/fill/w_2024,h_645,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/98d749_d1da9263057f4fe188fa6182db5c9ee1~mv2.png');
+    background-size: cover;
+    background-position: center;
+    width: 900px;
+	height: 500px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+	
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1e5920;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+	
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+	background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHCAcHBwcHBwcHBw0HBwcHBw8ICQcNFREWFhURExMYHSggGCYxGxMVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NDw0NDisZFRk3Nzc3LS0rKysrLSstNy03Kys3KysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQcC/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgYF/8QAFREBAQAAAAAAAAAAAAAAAAAAABH/2gAMAwEAAhEDEQA/AMsAdm88VAFAAAAAAAARQBFQAAFQEAAAAAAAAAAEARQBAABQGkFRVAAAAAAAAAABFAAQAFBBUQAAAAAAAAEVEAAUAQUBpABQAAVAFQAUQAAAAQAFAAABAAAAAAAABAEUAAAQUBpAAAAAAAAAAABQAQAFABAAAAAAAAABAVARQBAAAVFaQEUAAAAAAAAAAAAAAAAAAAAAAAABARQAABAAAAUAAURVQAAEUAAAAAAAAAAAAAAAABAQABQBAAAAAAAAUAAAAAAAAUQVFEUAAAAAEBUAFQEAAUAQAAAAAABAFAAAAAUAAAAAAAAAAAAAAAAAAAEAEBRBBRABUUEEVKACgAoogCiAKIAoAAAAAAAAAAigAACCAAAAlAAAAEARRUAUBUACgAtAAAAAABUAFQUVAQAAAAARBRBFUQBUABUAQBkURVABQAAAAVAoogUUQKKILUUQKKIFFEEVUAABABAUEBRFAEUHIDIoCgKKIoAAAAAAAAAAAAAAAAAIAACAAAAAAAAD/9k=');
+	background-size: cover;
+    background-position: center;
+    width: 700px;
+	height: 200px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.video, .uniform {
+    flex-basis: 48%;
+    text-align: center;
+}
+
+.video img, .uniform img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info, .hide {
+    flex-basis: 48%;
+}
+
+.info h3, .hide h3 {
+    margin-bottom: 10px;
+}
+
+.info p, .hide p {
+    line-height: 1.5;
+}
